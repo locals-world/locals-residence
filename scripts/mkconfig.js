@@ -7,7 +7,7 @@ function onlyUnique(value, index, self) {
 	return self.indexOf(value) === index;
 }
 // options is optional
-glob("./images/avatarmale/*", null, function(er, files) {
+glob("./images/*", null, function(er, files) {
 
 	//var buffer = [];
 	//var colors = {};
