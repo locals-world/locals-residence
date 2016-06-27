@@ -47,21 +47,26 @@ Example:
         */
         visualstate: {
           type: Array,
-          notify: true
+          notify: true,
+          value: [ [ 2, 0 ] ]
         },
         /* configuration of the object's data state.
          can be set on initialisation - data is returned to this variable
         */
         datastate: {
           type: Object,
-          notify: true
+          notify: true,
+          value: {
+              "name": "Mijn Huis",
+            }
         },
 
         renderstate: {
           type: String          
         },
         objectdata: {
-          type: Object
+          type: Object,
+
         },
         hashfunction: {
           type: Function
